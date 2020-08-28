@@ -1,0 +1,57 @@
+{
+  "name": "grape-social-network",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^3.2.0",
+    "axios": "^0.18.0",
+    "color": "^3.1.1",
+    "formik": "^1.5.8",
+    "global": "^4.3.2",
+    "jwt-decode": "^2.2.0",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-devtools": "^3.6.1",
+    "react-native": "^0.59.8",
+    "react-native-android-keyboard-adjust": "^1.2.0",
+    "react-native-camera": "^3.4.0",
+    "react-native-config": "^0.11.7",
+    "react-native-dropdownalert": "^3.11.0",
+    "react-native-extended-stylesheet": "^0.11.2",
+    "react-native-formik": "^1.7.6",
+    "react-native-hide-with-keyboard": "^1.2.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-raw-bottom-sheet": "^2.0.2",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-video": "^5.0.2",
+    "react-navigation": "^2.12.1",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3",
+    "reactotron-react-native": "^3.6.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./app/assets/fonts/"
+    ]
+  }
+}
